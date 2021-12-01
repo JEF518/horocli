@@ -1,0 +1,21 @@
+{
+  "name": "horocli",
+  "version": "1.0.0",
+  "description": "a cli for horoscopes",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "bin": {
+    "horocli": "./bin/index.js"
+  },
+  "author": "jef518",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "commander": "^8.3.0",
+    "figlet": "^1.5.2",
+    "sleep": "^6.3.0"
+  }
+}
